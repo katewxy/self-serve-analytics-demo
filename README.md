@@ -71,6 +71,13 @@ scripts/
 - build_fact_loan_performance.py  
 - build_mart_loan_metrics_by_risk.py  
 
+Sample Output (mart_loan_metrics_by_risk.csv)
+
+risk_band | approval_rate | default_rate | avg_loan_amount
+LOW       | 0.82          | 0.03         | 12000
+MEDIUM    | 0.64          | 0.07         | 15000
+HIGH      | 0.41          | 0.18         | 18000
+
 ---
 
 ## How to Run
@@ -88,3 +95,4 @@ python3 scripts/build_fact_loan_performance.py
 python3 scripts/build_mart_loan_metrics_by_risk.py
 
 All output CSV files will be created under the `data/` directory.
+
