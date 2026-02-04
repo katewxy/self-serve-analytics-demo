@@ -1,0 +1,4 @@
+risk_band,applications,approvals,approval_rate,defaults,default_rate,avg_loan_amount
+MEDIUM,22,16,0.73,1,0.06,15000.0
+HIGH,18,13,0.72,1,0.08,26923.08
+LOW,10,8,0.8,0,0.0,29375.0
